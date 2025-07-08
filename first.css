@@ -1,0 +1,35 @@
+/* universal selector */
+*{
+    margin:0%;
+}
+
+
+.main li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 3%;
+}
+
+.main{
+    background-color: gray;
+    color:white;
+    padding: 1%;
+    position: fixed;
+    width: 100vw;
+    top:0;
+
+}
+#over{
+    position: sticky;
+    top:100px;
+    transform: rotate(-40deg);
+    opacity: 0.5;
+}
+.two{
+    position: static;   /* No change defaut */
+    /* position: relative; */
+    /* position: absolute; */
+    /* top:0px; */
+    top:100px;
+    color:green;
+}

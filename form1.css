@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+}
+
+#myForm
+{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin:5% 0% 0% 25%;
+    box-shadow:1px 2px 15px grey;
+    padding: 2%;
+}
+
+#myForm h1
+{
+    text-align: center;
+}
+#myForm label
+{
+    margin:2% 0% 1% 0%;
+}
+#myForm input
+{
+    padding: 1%;
+    border: 0.6px solid grey;
+}
+#myForm button{
+    margin:2% 0% 0% 0%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+
+#myForm button:hover{
+    background-color: white;
+    color: green;
+    border:1px solid green;
+}

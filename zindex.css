@@ -1,0 +1,19 @@
+*{
+    overflow: hidden;
+}
+
+
+h1{
+    position: relative;
+    z-index: 15;
+    top:210px;
+    left:130px;
+    color:black;
+    text-shadow: 2px -2px 3px black;
+    /* transform: rotate(-40deg); */
+}
+img
+{
+    position: relative;
+    z-index: 10;
+}
