@@ -1,0 +1,24 @@
+/* *{
+    border:1px solid red;
+} */
+
+.main{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 100px 400px 600px;
+    /* gap: 30px; */
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.main h1
+{
+    background-color: greenyellow;
+}
+
+.h:hover{
+    scale:1.2;
+    /* translate: 300px; */
+    /* rotate: -120deg; */
+    transform: skew(30deg,180deg);
+}
